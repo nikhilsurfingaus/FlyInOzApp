@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import home from './pages/home'
-import airlines from './pages/airlines'
+import Airlines from './pages/airlines'
 import airports from './pages/airports'
 import reviews from './pages/reviews'
 import map from './pages/map'
@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={home} />
           <Route path="/home" component={home} />
-          <Route path="/airlines" component={airlines} />
+          <Route path="/airlines" component={Airlines} />
           <Route path='/airports' component={airports} />
           <Route path='/reviews' component={reviews} />
           <Route path='/map' component={map} />

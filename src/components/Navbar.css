@@ -14,16 +14,19 @@
     cursor: pointer;
     font-family: 'Stick No Bills', sans-serif;
     font-size: 40px;
+    background: #00ADC5;
 }
 
 .logo {
     text-decoration: none;
+    background: #00ADC5;
 }
 
 .plane {
     margin-left: 0.5rem;
     font-size: 2rem;
     opacity: 80%;
+    background: #00ADC5;
 }
 
 .nav-menu {
@@ -35,6 +38,7 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    background: #00ADC5;
 }
 
 .nav-links {
@@ -48,6 +52,10 @@
     background-color: #39c6d8;
     border-radius: 4px;
     transition: all 0.3s ease-out;
+}
+
+.nav-links.active {
+    color: black;
 }
 
 .fa-bars {

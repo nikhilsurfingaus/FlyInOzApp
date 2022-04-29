@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: #00ADC5;
+    background-color: #1b6974;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -14,19 +14,19 @@
     cursor: pointer;
     font-family: 'Stick No Bills', sans-serif;
     font-size: 40px;
-    background: #00ADC5;
+    background: #1b6974;
 }
 
 .logo {
     text-decoration: none;
-    background: #00ADC5;
+    background: #1b6974;
 }
 
 .plane {
     margin-left: 0.5rem;
     font-size: 2rem;
     opacity: 80%;
-    background: #00ADC5;
+    background: #1b6974;
 }
 
 .nav-menu {
@@ -38,7 +38,7 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
-    background: #00ADC5;
+    background: #1b6974;
 }
 
 .nav-links {
@@ -46,6 +46,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-family: 'Roboto', sans-serif;
+    background: #1b6974;
 }
 
 .nav-links:hover {
@@ -69,13 +70,7 @@
 .animate__animated.animate__fadeIn {
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s;
-}
-
-@media screen and (min-width: 960px) {
-    .logo:hover {
-        transition: all 0.3s ease-out;
-        transform: scale(1.1);
-    }
+    background: #1b6974;
 }
 
 @media screen and (max-width:960px) {
@@ -93,9 +88,10 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        background: #2297a6;
     }
     .nav-menu.active {
-        background: #1D5D66;
+        background: #2297a6;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -109,6 +105,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        background: #2297a6;
     }
     .nav-links:hover {
         background-color: #73cfdc;
@@ -129,10 +126,15 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+        background: #1b6974;
     }
     .fa-times {
         color: #fff;
         font-size: 2rem;
+        background: #1b6974;
+    }
+    .fa-bars {
+        background: #1b6974;
     }
     .logo:hover {
         transition: none;

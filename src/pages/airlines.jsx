@@ -16,7 +16,6 @@ export default function Airlines() {
 
     return (
         <>
-           <h1>Airlines</h1>
             <div className="app_container">
                 <div className="content_container animate__animated animate__slideInUp">
                     {AirlineData.map((operators) => {

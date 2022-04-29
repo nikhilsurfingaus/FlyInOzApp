@@ -1,6 +1,7 @@
 * {
     padding: 0;
     box-sizing: border-box;
+    background-color: #0e3136;
 }
 
 .app_container {
@@ -8,6 +9,7 @@
     display: block;
     margin: auto;
     padding: 10px;
+    margin-top: 40px;
 }
 
 .content_container {
@@ -21,10 +23,6 @@
 .content_card {
     display: block;
     border-radius: 5px;
-    border-color: #00ADC5;
-    border-style: solid;
-    border-spacing: 10px;
-    border-width: 6px;
     background-color: #1D5D66;
 }
 
@@ -40,6 +38,8 @@
 img {
     width: 100%;
     height: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 p {
@@ -51,7 +51,7 @@ p {
 }
 
 .content_card button.more {
-    background-color: #00ADC5;
+    background-color: #31848f;
     border: none;
     outline: none;
     margin: 0px;
@@ -77,27 +77,28 @@ p {
 
 .pop_up_content {
     border-radius: 10px;
+    background-color: #1b6974;
 }
 
 .pop_up_body {
     width: 70%;
     height: 70%;
-    background-color: #1D5D66;
     margin: auto;
     border-radius: 10px;
+    background-color: #043b43;
 }
 
 .pop_up_header {
     width: 100%;
-    background-color: #00ADC5;
+    background-color: #1b6974;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .pop_up_header .but {
     color: white;
-    background-color: #00ADC5;
-    border-color: #00ADC5;
+    background-color: #1b6974;
+    border-color: #1b6974;
     margin-top: -10px;
     width: 60%;
     margin-right: -10px;
@@ -118,7 +119,7 @@ p {
     font-size: 25px;
     display: inline-block;
     margin-left: 10px;
-    background-color: #00ADC5;
+    background-color: #1b6974;
 }
 
 .pop_up_card p.details {
@@ -127,6 +128,20 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+    background-color: #043b43;
+}
+
+.pop_up_card {
+    background-color: #043b43;
+    border-radius: 10px;
+}
+
+.fa-times {
+    background: #1b6974;
+}
+
+.details {
+    background-color: #043b43;
 }
 
 @media screen and (max-width:960px) {
@@ -141,6 +156,9 @@ p {
     }
     .pop_up_header p.Name {
         width: 34%;
+    }
+    .fa-times {
+        background: #1b6974;
     }
 }
 
@@ -171,7 +189,7 @@ p {
         font-size: 12px;
     }
     .content_card button.more {
-        background-color: #00ADC5;
+        background-color: #31848f;
         margin-right: 0;
         float: right;
         margin-top: -1%;
@@ -201,11 +219,14 @@ p {
         -webkit-animation-duration: 1s;
         animation-duration: 1s;
     }
+    .fa-times {
+        background: #1b6974;
+    }
 }
 
 @media screen and (max-width:1600px) {
     .content_card button.more {
-        background-color: #00ADC5;
+        background-color: #31848f;
         margin-right: 0;
         float: right;
         margin-top: -1%;
@@ -217,7 +238,7 @@ p {
 
 @media screen and (max-width:1200px) {
     .content_card button.more {
-        background-color: #00ADC5;
+        background-color: #31848f;
         margin-right: 0;
         float: right;
         margin-top: -1%;

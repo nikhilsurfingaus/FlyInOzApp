@@ -7,12 +7,28 @@ import reviews from './pages/reviews'
 import map from './pages/map'
 import about from './pages/about'
 import Navbar from './components/Navbar';
+import { Switch as Toggle } from '@mui/material';
+import {useState} from 'react'
 
 function App() {
+  const [bgColor, setBGColor] = useState('white');
+  const [isBlack, setIsBlack] = useState(false);
+
+  const handleChangeBG = (e) => {
+      setIsBlack(!isBlack);
+      setBGColor(isBlack ? 'white' : 'black');
+  }
+
+  const sty = {
+  color: bgColor
+  };
+
   return (
     <>
     <Router>
+      <div className={sty.color==="white" ? "light" : "dark"}>
         <Navbar />
+        <Toggle defaultChecked={false} onChange={handleChangeBG} className="toggle" color='default'/>
         <Switch>
           <Route path="/" exact component={home} />
           <Route path="/home" component={home} />
@@ -22,6 +38,7 @@ function App() {
           <Route path='/map' component={map} />
           <Route path='/about' component={about} />
         </Switch>
+        </div>
       </Router>
     </>
   );

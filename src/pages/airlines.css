@@ -1,7 +1,7 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    background-color: #0e3136;
+    /* background-color: #0e3136; */
 }
 
 .app_container {
@@ -9,7 +9,7 @@
     display: block;
     margin: auto;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .content_container {
@@ -63,6 +63,10 @@ p {
     margin-top: 2%;
     border-radius: 4px;
     padding: 5px 10px 5px 10px;
+}
+
+.content_card button.more:hover {
+    background-color: #39c6d8
 }
 
 .pop_up_container {
@@ -172,6 +176,9 @@ p {
 }
 
 @media screen and (max-width:600px) {
+    .app_container {
+        margin-top: 40px;
+    }
     .content_container {
         width: 100%;
         display: grid;

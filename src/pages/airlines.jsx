@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { AirlineData } from '../components/airlinesdata';
 import './airlines.css'
+import {styled} from '@mui/material/styles'
+import { Button } from '@mui/material';
 
 export default function Airlines() {
 
@@ -13,6 +15,18 @@ export default function Airlines() {
         setpopuptoggle(!popuptoggle);
     };
 
+    const ColorButton = styled(Button) (({theme}) => ({
+        color: theme.palette.getContrastText('#31848f'),
+        backgroundColor: '#31848f',
+        "&:hover": {
+            backgroundColor: '#39c6d8'
+        }
+    }));
+
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
 
     return (
         <>
@@ -44,6 +58,8 @@ export default function Airlines() {
                                             </button>
                                         </div>
                                         <p className="details">{pop.details}</p>
+                                        <ColorButton onClick={() => openInNewTab(pop.booking)}
+                                            variant='contained' className='link'>Book Flight</ColorButton>
                                     </div>
                                 );
                             })}

@@ -187,6 +187,15 @@ p {
     }
 }
 
+@media screen and (max-width:800px) {
+    .content_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+
 @media screen and (max-width:600px) {
     .app_container {
         margin-top: 40px;

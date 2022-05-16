@@ -1,0 +1,427 @@
+.write button {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 50%;
+    display: block;
+    margin-top: 40px;
+}
+
+.content_container {
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content_card .revname {
+    background-color: #31848f !important;
+    width: 100%;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content_card h2.head {
+    margin: 10px 8px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #31848f !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.revcon h2 {
+    margin: 10px 8px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.content_card h2 {
+    background-color: #1D5D66 !important;
+}
+
+.content_card {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.star {
+    width: 50%;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.pop_up {
+    width: 100%;
+    background-color: #1b6974;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+}
+
+.pop_up p {
+    margin: 10px 8px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    width: 40%;
+    text-align: left;
+    display: inline;
+}
+
+.pop_up button.butt {
+    color: white;
+    background-color: #1b6974;
+    border-color: #1b6974;
+    margin-top: 1%;
+    width: 85%;
+    text-align: right;
+    justify-content: right;
+    display: inline;
+    font-weight: bold;
+    border: none;
+    font-size: 30px;
+}
+
+.pop_up .butt i {
+    cursor: pointer;
+}
+
+.details {
+    padding-top: 2%;
+}
+
+.details .name {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.name input {
+    width: 50%;
+    height: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.select select {
+    width: 50%;
+    height: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.depart select {
+    width: 50%;
+    height: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dest select {
+    width: 50%;
+    height: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rate select {
+    width: 50%;
+    height: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.com textarea {
+    width: 50%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details .select {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.details .depart {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.details .dest {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.details .rate {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.details .com {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.details .sendReview {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.pop_up_content {
+    margin-top: -100px;
+}
+
+@media screen and (max-width:1700px) {
+    .pop_up p {
+        font-size: 22px;
+    }
+    .pop_up button.butt {
+        width: 85%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .pop_up button.butt {
+        width: 83%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .pop_up_content {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .pop_up button.butt {
+        width: 80%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .name input {
+        width: 60%;
+    }
+    .select select {
+        width: 60%;
+    }
+    .depart select {
+        width: 60%;
+    }
+    .dest select {
+        width: 60%;
+    }
+    .rate select {
+        width: 60%;
+    }
+    .com textarea {
+        width: 60%;
+    }
+    .pop_up_content {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .pop_up button.butt {
+        width: 77%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .pop_up_content {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .pop_up button.butt {
+        width: 74%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .name input {
+        width: 70%;
+    }
+    .select select {
+        width: 70%;
+    }
+    .depart select {
+        width: 70%;
+    }
+    .dest select {
+        width: 70%;
+    }
+    .rate select {
+        width: 70%;
+    }
+    .com textarea {
+        width: 70%;
+    }
+    .pop_up_content {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .pop_up button.butt {
+        width: 70%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .name input {
+        width: 70%;
+    }
+    .select select {
+        width: 70%;
+    }
+    .depart select {
+        width: 70%;
+    }
+    .dest select {
+        width: 70%;
+    }
+    .rate select {
+        width: 70%;
+    }
+    .com textarea {
+        width: 70%;
+    }
+    .pop_up_content {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .pop_up p {
+        font-size: 20px;
+    }
+    .pop_up button.butt {
+        width: 55%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .fa-times {
+        font-size: 20px !important;
+    }
+    .details {
+        padding-top: 3%;
+    }
+    .details .name {
+        margin: auto;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .details .select {
+        padding-bottom: 3%;
+    }
+    .details .depart {
+        padding-bottom: 3%;
+    }
+    .details .dest {
+        padding-bottom: 3%;
+    }
+    .details .rate {
+        padding-bottom: 3%;
+    }
+    .details .com {
+        padding-bottom: 3%;
+    }
+    .details .sendReview {
+        padding-bottom: 3%;
+    }
+    .name input {
+        width: 70%;
+    }
+    .select select {
+        width: 70%;
+    }
+    .depart select {
+        width: 70%;
+    }
+    .dest select {
+        width: 70%;
+    }
+    .rate select {
+        width: 70%;
+    }
+    .com textarea {
+        width: 70%;
+    }
+    .pop_up_content {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .pop_up p {
+        font-size: 20px;
+        width: 20%;
+    }
+    .pop_up button.butt {
+        width: 36%;
+        margin-top: 0;
+        margin-right: 0;
+        text-align: right;
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .name input {
+        width: 70%;
+    }
+    .select select {
+        width: 70%;
+    }
+    .depart select {
+        width: 70%;
+    }
+    .dest select {
+        width: 70%;
+    }
+    .rate select {
+        width: 70%;
+    }
+    .com textarea {
+        width: 70%;
+    }
+    .star {
+        width: 80%;
+        display: block;
+        margin-left: 0px;
+    }
+    .write button {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 40%;
+    }
+    .pop_up_content {
+        margin-top: 0;
+    }
+}

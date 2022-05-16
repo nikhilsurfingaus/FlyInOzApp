@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import home from './pages/home'
 import Airlines from './pages/airlines'
 import Airports from './pages/airports'
-import reviews from './pages/reviews'
-import map from './pages/map'
+import Reviews from './pages/reviews'
 import about from './pages/about'
 import Navbar from './components/Navbar';
+import { FooterContainer } from './components/footer';
 import { Switch as Toggle } from '@mui/material';
 import {useState} from 'react'
 
@@ -34,11 +34,11 @@ function App() {
           <Route path="/home" component={home} />
           <Route path="/airlines" component={Airlines} />
           <Route path='/airports' component={Airports} />
-          <Route path='/reviews' component={reviews} />
-          <Route path='/map' component={map} />
+          <Route path='/reviews' component={Reviews} />
           <Route path='/about' component={about} />
         </Switch>
         </div>
+        <FooterContainer />
       </Router>
     </>
   );

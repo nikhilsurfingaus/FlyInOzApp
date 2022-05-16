@@ -1,9 +1,12 @@
 import React from 'react';
+import './review.css'
+import GetReviews from '../components/GetReview';
 
-export default function reviews() {
+export default function Reviews() {
+
     return (
         <>
-           <h1>Reviews</h1>
+            <GetReviews />
         </>
     );
 }

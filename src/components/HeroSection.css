@@ -1,0 +1,101 @@
+.hero-container {
+    background: url('../videos/blur2.jpg') center center/cover no-repeat;
+    height: 92vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin: auto;
+}
+
+.elle {
+    width: 60%;
+    margin: auto;
+}
+
+.elle h1 {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-top: 13vh;
+    font-family: 'Koulen', sans-serif;
+    font-weight: bold;
+}
+
+.elle p {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.arrow {
+    color: white;
+    text-decoration: none;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .elle h1 {
+        font-size: 60px;
+        margin: auto;
+        width: 100%;
+        padding-top: 10vh;
+    }
+    .arrow {
+        display: block;
+        margin: auto;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .elle h1 {
+        font-size: 40px;
+        margin: auto;
+        width: 100%;
+        padding-top: 10vh;
+    }
+    .arrow {
+        display: block;
+        margin: auto;
+        margin-top: -80px;
+    }
+    @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-10px);
+        }
+        60% {
+            transform: translateY(-5px);
+        }
+    }
+}

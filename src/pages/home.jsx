@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 export default function home() {
     return (
         <>
-           <h1>Home</h1>
+           <HeroSection />
         </>
     );
 }

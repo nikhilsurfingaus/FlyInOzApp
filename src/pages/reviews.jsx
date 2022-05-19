@@ -6,7 +6,7 @@ export default function Reviews() {
 
     return (
         <>
-            <GetReviews />
+            <GetReviews  />
         </>
     );
 }

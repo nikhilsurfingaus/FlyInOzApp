@@ -70,14 +70,14 @@ export default function GetReviews() {
     return (
         <>
 
-            <div className="review-container animate__animated animate__slideInUp">
+            <div className="review-container">
                 <div className="write">
                     <ColorButton onClick={() => changeContent()} variant='contained' className='link'>
                         Write Review
                     </ColorButton>
                 </div>
                 <div className="app_container">
-                <div className="content_container">
+                <div className="content_container animate__animated animate__slideInUp">
                 {review.map((post) => (
                     <div className="content_card">
                             <div className="revname">

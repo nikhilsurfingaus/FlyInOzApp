@@ -6,6 +6,7 @@ import {v4 as uuidv4} from 'uuid';
 import {styled} from '@mui/material/styles'
 import { Button } from '@mui/material';
 import StarsRating from 'stars-rating'
+import {ToastsContainer, ToastsStore, ToastsContainerPosition} from 'react-toasts';
 
 
 export default function GetReviews() {
@@ -57,6 +58,7 @@ export default function GetReviews() {
         setDestination('');
         setRating('');
         changeContent();
+        ToastsStore.success("Review Submitted")
     }
 
     const [popuptoggle, setpopuptoggle] = useState(false);
@@ -75,6 +77,7 @@ export default function GetReviews() {
                     <ColorButton onClick={() => changeContent()} variant='contained' className='link'>
                         Write Review
                     </ColorButton>
+                    <ToastsContainer position={ToastsContainerPosition.TOP_CENTER} store={ToastsStore}/>
                 </div>
                 <div className="app_container">
                 <div className="content_container animate__animated animate__slideInUp">
@@ -92,6 +95,7 @@ export default function GetReviews() {
 
                     </div>
                 ))}
+
                 </div>
             </div>
             </div>
@@ -256,7 +260,6 @@ export default function GetReviews() {
                                         Submit
                                     </ColorButton>
                                 </div>
-
                             </div>
                         </div>
                 </div>

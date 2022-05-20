@@ -1,0 +1,137 @@
+body {
+    /* Typography Declarations */
+    color: #FFFFFF;
+}
+
+.masthead,
+.introduction,
+.location,
+.questions,
+.content-footer {
+    /* Layout Declarations */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer>p,
+.social {
+    /* Layout Declarations */
+    text-align: center;
+}
+
+.introduction,
+.location,
+.questions {
+    /* Layout Declarations */
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction {
+    padding-bottom: 50px;
+}
+
+.introduction>p,
+.location>p,
+.content-footer>p {
+    /* Typography Declarations */
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    margin-left: 0;
+    font-size: 17px;
+}
+
+.masthead {
+    /* Layout Declrations */
+    padding: 6em 0;
+    /* Appearance Declrations */
+    background-image: url('../videos/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.2em;
+    /* Typography Declarations */
+    color: #FFFFFF;
+    font-family: 'Koulen', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: 0.1em;
+    /* Typography Declarations */
+    color: #86b5bb;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-size: 6em;
+    text-shadow: 0px 3px 0px #1b6974;
+}
+
+.heading p {
+    /* Layout Declarations */
+    text-align: justify;
+}
+
+.question {
+    /* Layout Declarations */
+    margin: 2em 0 1em 0;
+    /* Typography Declarations */
+    color: #299eae;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.answer {
+    /* Layout Declarations */
+    margin-left: 0em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.con {
+    background-color: #0e3136;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.introduction p {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .masthead {
+        padding: 4em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .masthead-intro {
+        font-size: 3em;
+    }
+    .masthead,
+    .introduction,
+    .location,
+    .questions,
+    .content-footer {
+        /* Layout Declarations */
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

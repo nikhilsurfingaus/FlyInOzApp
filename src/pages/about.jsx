@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutComp from '../components/AboutComp';
 
 export default function about() {
     return (
         <>
-           <h1>About</h1>
+           <AboutComp />
         </>
     );
 }

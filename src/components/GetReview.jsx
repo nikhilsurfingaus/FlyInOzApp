@@ -28,6 +28,7 @@ export default function GetReviews() {
     const [Airline, setAirline] = useState('');
 
     const ref = firebase.firestore().collection("review");
+    console.log(ref)
 
     function getReview() {
         ref.onSnapshot((querySnapshot) => {

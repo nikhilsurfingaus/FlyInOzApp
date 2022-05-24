@@ -22,6 +22,7 @@
     "stars-rating": "^1.1.0",
     "styled-components": "^5.3.5",
     "uuid": "^8.3.2",
+    "watchable-stores": "^2.0.2",
     "web-vitals": "^2.1.4",
     "webfontloader": "^1.6.28"
   },

@@ -1,4 +1,4 @@
-# FlyInOz
+# FlyInOz Web App
 
 ## Site Link: [flyinoz.com.au](https://flyinoz.netlify.app/)
 

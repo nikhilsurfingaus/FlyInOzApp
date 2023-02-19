@@ -1,6 +1,6 @@
 # FlyInOz Web App
 
-## Live Site Link: [flyinoz.com.au](https://flyinoz.netlify.app/)
+## Site Link: [flyinoz.com.au](https://flyinoz.netlify.app/)
 
 Website provides an aviation hub and guide for domestic aviation travel in Australia
 Built using React with a Firebase/Firestore Database Backend for dynamically rendering user Reviews

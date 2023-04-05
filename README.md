@@ -1,4 +1,4 @@
-# FlyInOz Australian Aviation Guide Web App
+# FlyInOz Australian Aviation Guide Web Application
 
 ## Site Link: [flyinoz.com.au](https://flyinoz.netlify.app/)
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { AirlineData } from '../components/airlinesdata';
+import { AirlineData } from '../components/AirportAirlineUI/airlinesdata';
 import './airlines.css'
 import {styled} from '@mui/material/styles'
 import { Button } from '@mui/material';

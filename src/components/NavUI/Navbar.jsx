@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {MenuItems} from './MenuItems'
+import {MenuItems} from '../AirportAirlineUI/MenuItems'
 import './Navbar.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlane} from '@fortawesome/free-solid-svg-icons'

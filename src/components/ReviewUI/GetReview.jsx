@@ -1,7 +1,7 @@
 import React from 'react';
 import './GetReview.css'
 import { useState, useEffect } from 'react';
-import firebase from '../firebase';
+import firebase from '../../firebase';
 import {v4 as uuidv4} from 'uuid';
 import {styled} from '@mui/material/styles'
 import { Button } from '@mui/material';

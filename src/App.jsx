@@ -5,8 +5,8 @@ import Airlines from './pages/airlines'
 import Airports from './pages/airports'
 import Reviews from './pages/reviews'
 import about from './pages/about'
-import Navbar from './components/Navbar';
-import { FooterContainer } from './components/footer';
+import Navbar from './components/NavUI/Navbar';
+import { FooterContainer } from './components/NavUI/footer';
 import { Switch as Toggle } from '@mui/material';
 import {useState} from 'react'
 

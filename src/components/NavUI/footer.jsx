@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Footer from '../components/footercomp'
-import Icon from '../components/Icon'
+import Footer from './footercomp'
+import Icon from '../IconsUI/Icon'
 import './footstyle.css'
 
 export function FooterContainer() {
